@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Recording app</string>
+    <string name="Simple_Recording_App">Recording app</string>
+    <string name="app_name">Simple Recording App</string>
 </resources>
