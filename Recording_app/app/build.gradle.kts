@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.recordingapp"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.recordingapp"
@@ -14,6 +14,11 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    // 简化findviewbyid
+    buildFeatures {
+        viewBinding = true
     }
 
     buildTypes {
