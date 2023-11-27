@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.recordingapp-mergeDebugResources-30:/layout/activity_audio_list.xml",
+        "source": "com.example.recordingapp-main-33:/layout/activity_audio_list.xml"
+    },
+    {
+        "merged": "com.example.recordingapp-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.example.recordingapp-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.recordingapp-mergeDebugResources-30:/layout/item_audio.xml",
+        "source": "com.example.recordingapp-main-33:/layout/item_audio.xml"
+    }
+]

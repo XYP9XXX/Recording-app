@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_icon_voice.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/icon_voice.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_icon_next.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/icon_next.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_bg_record.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/bg_record.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_icon_back.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/icon_back.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_red_play.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/red_play.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_recorder_pause.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/recorder_pause.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_recorder_stop.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/recorder_stop.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_sound_close.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/sound_close.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.recordingapp-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_ic_error.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/ic_error.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_mic_on.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/mic_on.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.example.recordingapp-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_icon_last.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/icon_last.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.recordingapp-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/layout_item_audio.xml.flat",
+        "source": "com.example.recordingapp-main-33:/layout/item_audio.xml"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/xml_backup_rules.xml.flat",
+        "source": "com.example.recordingapp-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/layout_activity_audio_list.xml.flat",
+        "source": "com.example.recordingapp-main-33:/layout/activity_audio_list.xml"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/drawable_bg_audio.xml.flat",
+        "source": "com.example.recordingapp-main-33:/drawable/bg_audio.xml"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_red_stop.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/red_stop.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_sound_open.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/sound_open.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_ic_icon.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/ic_icon.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_red_pause.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/red_pause.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_icon_app_logo.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/icon_app_logo.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_recorder_ongoing.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/recorder_ongoing.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-hdpi_more.png.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-hdpi/more.png"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.recordingapp-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.recordingapp-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.recordingapp-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    }
+]

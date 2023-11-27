@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 主页面中每一个list view的样式 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_audio"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="20231126_245689"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2023/11/26"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"/>
+
+    <!--alignBottom - 下对齐-->
+    <ImageView
+        android:id="@+id/iv_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_time"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/red_play"/>
+
+    <TextView
+        android:id="@+id/tv_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_time"
+        android:layout_toStartOf="@+id/iv_play"
+        android:layout_marginEnd="10dp"
+        android:text="00:05:31"/>
+
+    <LinearLayout
+        android:id="@+id/ly_controll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_play"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ProgressBar
+            android:id="@+id/pb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

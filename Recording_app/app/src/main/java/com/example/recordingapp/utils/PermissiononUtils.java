@@ -3,6 +3,7 @@ package com.example.recordingapp.utils;
 import android.app.Activity;
 import android.content.pm.PackageManager;
 import android.os.Build;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
@@ -39,11 +40,13 @@ public class PermissiononUtils {
     }
 
     public void onRequestPermission (Activity context, String []permissions, OnPermissionCallbackListener listener) {
+        Log.d("onRequestPermission被调用了", "onRequestPermission: ");
         mListener = listener;
         // 判断手机版本号是否大于6.0, 6.0以上需要申请权限
         if (Build.VERSION.SDK_INT >= 23) {
             // 创建一个集合，将用户之前没有授予的权限放入这个集合
             List<String>mPermissionList = new ArrayList<>();
+
             // 诸葛判断权限是否授权
             for (int i = 0; i < permissions.length; i++) {
                 // 检查权限是否授权
@@ -57,6 +60,8 @@ public class PermissiononUtils {
             // 申请权限
             if (mPermissionList.size() > 0) {
                 String[] permission_arr = mPermissionList.toArray(new String[mPermissionList.size()]);
+
+                // Activity申请权限方法
                 ActivityCompat.requestPermissions(context, permission_arr, mRequestCode);
             }else {
                 // 权限通过，可以做想做的事情了
@@ -66,6 +71,7 @@ public class PermissiononUtils {
     }
 
     public void onRequestPermissionResult(Activity context, int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        Log.d("onRequestPermissionResult被调用了", "onRequestPermissionResult: ");
         if (requestCode == mRequestCode) {
             // 存储没有授权的集合
             List<String>deniedPermissions = new ArrayList<>();
