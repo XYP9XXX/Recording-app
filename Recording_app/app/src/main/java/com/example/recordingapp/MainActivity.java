@@ -11,8 +11,11 @@ import android.os.Message;
 import android.util.Log;
 
 import com.example.recordingapp.databinding.ActivityMainBinding;
+import com.example.recordingapp.utils.IFileInter;
 import com.example.recordingapp.utils.PermissiononUtils;
+import com.example.recordingapp.utils.SDCardUtils;
 
+import java.io.File;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -51,9 +54,19 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onGranted() {
             // 判断是否有应用文件夹，如果没有就创建应用文件夹
+
+            createAppDir();
             // 倒计时进入播放录音页面
             Log.d("倒计时", "onGranted: ");
             handler.sendEmptyMessageDelayed(1, 1000);
+        }
+
+        //创建项目目录
+        private void createAppDir() {
+            File recorderDir = SDCardUtils.getInstance().createAppFetchDir(IFileInter.FETCH_DIR_AUDIO);
+
+            // 储存项目地址
+            Contents.PATH_FETCH_DIR_RECORDER = recorderDir.getAbsolutePath();
         }
 
         @Override
